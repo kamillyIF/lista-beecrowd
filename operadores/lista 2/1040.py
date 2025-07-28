@@ -16,9 +16,9 @@ elif media >= 5.0 and media <= 6.9:
      print("Nota do exame: {}".format(nota))
      media2 = math.ceil(media + nota) / 2
      
-     if media2 > 5.0:
+if media > 5.0:
      print("Aluno aprovado.")
-     print("Media final: {:.1f}".format(media2))
+     print("Media final: {:.1f}".format(media))
      
-     else:
-         print("Aluno reprovado.")
+else:
+     print("Aluno reprovado.")

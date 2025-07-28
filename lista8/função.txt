@@ -1,0 +1,28 @@
+def - para começar uma função 
+
+ex:
+
+def escreveMensagem(): # é obrigatorio ter  o () na função
+    print("[ERRO] ocorreu um erro!")
+
+mais para funcionar tem que chamar a função 
+ex: abaixo 
+escreveMensagem("Ocorreu um erro!")
+
+Evitar fazer entrada e saida numa função   
+evitar usar input e print na função
+
+overhad - e um termo que uma sobrecarga   
+
+parametros 
+
+ex:
+
+def mensagemErro(mensagem):
+    print("[ERRO]" + mensagem)
+
+mensagemErro("Valor invalido!")
+
+quando imprimir iria aparecer
+
+[Erro] valor invalido! 

@@ -1,0 +1,74 @@
+# valor = int(input())  
+
+# for a in range(valor):
+#     n1, n2 = map(int, input().split())
+#     soma = 0 
+#     if n1 > n2:
+#         for i in range(n2 + 1, n1): 
+#             if i % 2 != 0:
+#                 soma += i  
+#     else:
+#         for i in range(n1 + 1, n2): 
+#             if i % 2 != 0:
+#                 soma += i  
+
+#     print(soma)
+
+# Dividindo X por Y (1116)
+
+# rep = int(input())
+
+# for i in range(rep):
+#     n1,n2 = map(float, input().split())
+#     if n2 == 0:
+#         print("divisao impossivel")
+
+#     elif n2 != 0:
+#          result = n1 / n2
+#          print(result)
+
+
+
+# contadorP = 0
+# contadorI = 0
+# contadorPo = 0
+# contadorNe = 0
+# for c in range (5):
+#     a = int(input())
+#     if a % 2 == 0:
+#         contadorP += 1
+#     if a % 2 != 0:
+#         contadorI += 1
+#     if a > 0:
+#         contadorPo += 1
+#     if a < 0:
+#         contadorNe += 1
+
+# print("{} valor(es) par(es)".format(contadorP))
+# print(f"{contadorI} valor(es) impar(es)")
+# print(f"{contadorPo} valor(es) positivo(s)")
+# print("{} valor(es) negativos".format(contadorNe))
+
+# Escreva um algoritmo que leia 10 n ́umeros inteiros e imprima, a soma deles.
+# soma = 0
+# for i in range(10):
+#     n = int(input())
+#     soma += n
+# print(soma)
+
+# Dizemos que um n ́umero natural  ́e triangular se ele  ́e produto de trˆes n ́umeros naturais
+# consecutivos. Exemplo: 120  ́e triangular, pois 4 × 5 × 6 = 120. Escreva um algoritmo que
+# imprima os 10 primeiros n ́umeros triangulares.
+
+# contador = 0  # Conta quantos números triangulares já foram encontrados
+# n = 1  # Começa do número 1
+
+for contador in range(1, 11):  # De 1 até 10 (inclusive)
+    n = contador  # O número inicial de cada grupo consecutivo
+    triangular = n * (n + 1) * (n + 2)
+    print("{}º número triangular: {}".format(contador, triangular))
+
+for c in range(1, 11):  # De 1 até 10 (inclusive)
+    n = c  # O número inicial de cada grupo consecutivo
+    triangular = n * (n + 1) * (n + 2)
+    print("{}º número triangular: {}".format(c, triangular))
